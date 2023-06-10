@@ -180,3 +180,19 @@ font-size: 30px;
     margin: 10px;
     padding: 5px;
  }
+
+ .intro .devinfo h2{
+    font-family: 'Source Code Pro', nomospace;
+    margin: 5px;
+}
+
+ .intro .devinfo p{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 5px;
+ }
+
+ .skill{
+    width: 23px;
+    height: 23px;
+    background-color: #FF6464;
+ }
