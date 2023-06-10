@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Roboto+Mono:ital,wght@0,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: #B4F8C8;
+    width: 15vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    
+}
+
+.sidebar .nav{
+    padding: 25px;
+    height: 100vh;
+}
+
+.sidebar .nav li{
+    list-style: none ;
+    padding: 33px;
+    font-size: 15px;
+}
+.sidebar .nav li a{
+    text-decoration:  none ;
+    color: #FF6464;
+   
+}
+.Main{
+    background-color:#A0E7E5 ;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.inforcontainer{
+    background-color: #FBE7C6;
+    height: 75vh;
+    width: 75vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.inforcontainer .devpic img{
+    width: 400px;
+    height: 75vh;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 50px;
+    
+}
+
+.name{
+font-size: 45px;
+font-weight: bold;
+font-family: 'Fira Sans', sans-serif;
+}
+
+.about{
+font-size: 30px;
+}
+
+.moreaboutme{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    align-content: center;
+    margin: 15px;
+    
+}
+
+.btn{
+    margin-top: 28px;
+
+}
+.btn button{
+    margin: 0 3px ;
+    padding: 9px 14px;
+    border-radius: 22px;
+    background-color: #FFAEBC;
+    color: #FFFAF4;
+    font-weight: bold;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: #22577A ;
+    color: #FFFAF4;
+}
+
+.btn-sm{
+    font-size: 14px;
+    padding: 7px 15px;
+    margin: 12px 0;
+    border-radius: 20px;
+}
+
+.devpic img {
+    height: 58vh;
+}
+
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding:  50px;
+    
+}
+
+.contactform h1{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 30px 0;
+}
+
+.contactform form div{
+    padding: 10px  0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0  0  0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: #E55807;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 25px;
+    margin: 1px;
+}
+
+ .blogitem{
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+ }
+
+ .blogitem h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+ }
+
+ .blogitem p{
+    font-family: 'Source Code Pro', nomospace;
+ }
+
+ .btn-btn-sm{
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color:#FAFFAF;
+ }
+
+ .inforcontainer .devinfo p {
+    margin: 10px;
+ }
